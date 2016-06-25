@@ -49,11 +49,11 @@ Ignoring `node_modules` and `jspm_modules` because they should be installed by a
 
 ## TODO
 
-*** App
+### App
 
 * layout
 * nav
 * framework
 * connection to galliry
 
-*** Gallery
+### Gallery
