@@ -25,9 +25,17 @@ Install node packages via
 
 This command must be run from the root directory as well as the app directory.  This is because the root directory is where the server.js file is located, which depends on serve-static and the /app directory is where our actual aurelia app is located.
 
-This will install the packages listed inside `package.json`.  
+This will install the packages listed inside `package.json`.
 
 Install jspm packages inside app/ with `jspm install`
+
+### Installation Notes
+
+#### Adding more dependencies
+
+Dependencies are added via `npm install --save <package_name>`
+
+This adds the package to the list of dependencies and installs that package into node_modules.  You can delete it from package.json -> dependencies if you change your mind later.
 
 ### Git Setup
 
