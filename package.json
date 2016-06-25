@@ -1,0 +1,19 @@
+{
+  "name": "ewic.us",
+  "version": "0.0.1",
+  "description": "Main site for ewic.us, framework and organization",
+  "keywords": [],
+  "homepage": "http://ewic.us",
+  "bugs": "http://ewic.us/bugs",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Eric Zhang",
+    "email": "ewicexclamationpoint@gmail.com",
+    "url": "http://ewic.us"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.11.1"
+  }
+}
