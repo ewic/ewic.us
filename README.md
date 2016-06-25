@@ -59,6 +59,18 @@ Dependencies are added via `npm install --save <package_name>`
 
 This adds the package to the list of dependencies and installs that package into node_modules.  You can delete it from package.json -> dependencies if you change your mind later.
 
+## Starting the whole shebang
+
+Install Forever
+
+`npm install -g forever`
+
+Run the app using Forever
+
+`forever start server.js`
+
+## Additional notes
+
 ### Git Setup
 
 #### .gitignore

@@ -17,5 +17,29 @@
     <script>
       SystemJS.import('aurelia-bootstrapper');
     </script>
+
+    <!-- Loading gid -->
+    <style>
+    .loading {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 120px;
+      height: 120px;
+
+      background: url('images/loading.svg') no-repeat top left;
+      background-size: contain;
+    }
+    body {
+      background-color: #111;
+    }
+
+    </style>
+
+    <div class="loading"></div>
+
   </body>
 </html>
