@@ -31,21 +31,11 @@ Install jspm packages inside app/ with `jspm install`
 
 ### Git Setup
 
-#### Git Ignore
+#### .gitignore
 
 Git ignore specifies files and folders that git will not commit to the repository.  This is stored in `.gitignore`.
 
 Ignoring `node_modules` and `jspm_modules` because they should be installed by all the `node install` and `jspm install` commands that were run above.
-
-### NodeJS
-
-### NPM
-
-
-
-#### NPM and NodeJS
-
-
 
 ## TODO
 
@@ -54,6 +44,6 @@ Ignoring `node_modules` and `jspm_modules` because they should be installed by a
 * layout
 * nav
 * framework
-* connection to galliry
+* connection to gallery
 
 ### Gallery
