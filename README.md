@@ -19,6 +19,28 @@ This is my personal site and photo gallery framework.  This is also an exercise 
 
 ### Installation instructions
 
+#### Install server requirements
+
+##### Install NodeJS
+
+Rather than use Ubuntu's repo, which is always out of date, we use Node Version Manager (nvm).  This curl script will download and run the install script for NodeJS.
+
+``` 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+```
+
+##### Install Node Package Manager
+
+NodeJS has npm installed by default, but it's often out of date.  This will update npm.
+
+`npm install npm -g`
+
+##### Install JSPM
+
+`npm install jspm -g`
+
+#### Install Node Packages
+
 Install node packages via
 
 `npm install`
