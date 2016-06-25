@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.6",
+    "instafeed.js": "^1.4.1",
     "requirejs": "^2.2.0"
   }
 }
