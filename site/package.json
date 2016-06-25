@@ -40,5 +40,8 @@
         "main": "client/shim.min"
       }
     }
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
   }
 }
