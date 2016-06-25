@@ -1,7 +1,3 @@
-//Invoke less and get it going
-var less = require('less');
-
-
 //This will create the server and set it to listen on port 80.
 var site_root = './site';  // Site root.
 var port = 8080; // The port to listen on.
