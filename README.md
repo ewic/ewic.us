@@ -1,5 +1,9 @@
 # ewic.us main site
 
+## TESTING BACKBONE.JS
+
+Originally I wanted to do everything in aurelia, but I got really used to Backbone.js so I'm trying it out to see how viable it is as the primary JS framework.
+
 ## Description
 
 This is my personal site and photo gallery framework.  This is also an exercise in working with node and npm and jspm, so there might be some funkiness involved as I experiment with some fun stuff.
